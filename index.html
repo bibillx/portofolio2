@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/foto nabila.jpeg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Nabila Khairiyah</h1>
+
+          <p class="title">Software Engineering</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">nabilakhairiyah2303@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+(62) 858-9035-9907</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">March 23, 2008</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Permata Pondok Rajeg, Cibinong, Bogor</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Saya adalah seorang siswi di SMK Plus Pelita Nusantara yang memiliki ketertarikan mendalam dalam bidang Rekayasa Perangkat Lunak. Walaupun saat ini saya masih dalam tahap belajar dan belum sepenuhnya mahir, saya telah berhasil mengembangkan beberapa program sederhana.
+          </p>
+
+          <p>
+            Saya sangat antusias untuk terus meningkatkan kemampuan saya di bidang ini, dengan tekad untuk menjadi seorang ahli yang kompeten di masa depan. Saya percaya bahwa dengan dedikasi dan pembelajaran berkelanjutan, saya akan mampu mencapai tujuan saya di dunia teknologi.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Novel Writer</h4>
+
+                <p class="service-item-text">
+                  Saya suka menulis novel untuk mengungkapkan isi pikiran. Selain untuk mengungkapkan isi pikiran, menulis novel membuat saya dapat mengembangkan imajinasi saya.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Tentunya saya juga menyukai pengembangan website, meskipun terkadang hasilnya kurang memuaskan.<table></table>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Manhwa Reader</h4>
+
+                <p class="service-item-text">
+                  Selain menulis novel, saya juga menyukai membaca suatu Manhwa, Manhua, ataupun Manga.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  Saya suka mengambil gambar suatu object yang menurut saya indah. Walaupun terkadang hasilnya tidak memuaskan.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - productive teacher's
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Productive Teacher's</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Septianto Raharso</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Guru Pemrograman Beroriesntasi Object dan ketua dari porgram studi jurusan Rekayasa Perangkat Lunak di SMK Plus Pelita Nusantara.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Maya Sugandi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Guru pembelajaran Basis Data dan Pemrograman Web di SMK Plus Pelita Nusantara.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Fiet Romdhani</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Guru Pemodelan Perangkat Lunak di SMK Plus Pelita Nusantara.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+      
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMK Plus Pelita Nusantara</h4>
+
+              <span>2023 — Sekarang</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MTs Negeri Kota Depok</h4>
+
+              <span>2020 — 2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SDIT Sulamun Najah</h4>
+
+              <span>2014 — 2020</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Soft Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Public Speaking</h4>
+
+              <p class="timeline-text">
+                Saya mampu menguasai hal seputar public speaking dalam situasi belajar, berpresentasi, negosiasi, atau dalam berdiskusi ide.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Comunication</h4>
+
+              <p class="timeline-text">
+                Saya pandai dalam berkomunikasi untuk menyampaikan pesan dari suatu individu ke individu lain dengan tujuan agar pesan tersampaikan dengan baik
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative Thinking</h4>
+
+              <p class="timeline-text">
+                Saya dapat berfikir kreatif dalam mengerjakan atau melakukan sesuatu.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Office</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML & CSS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Design</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript & C++</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PROJECT
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Website">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (78).png" alt="Stories Website" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stories Website</h3>
+
+                <p class="project-category">Menggunakan HTML & CSS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Website">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (81).png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Followed Cursor</h3>
+
+                <p class="project-category">Menggunankan HTML & CSS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Website">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (113).png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CRUD Perpustakaan</h3>
+
+                <p class="project-category">Membuat Website Perpustakaan Menggunakan CRUD.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (11).png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logo IM3</h3>
+
+                <p class="project-category">Menggunakan CorelDRAW</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (10).png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Logo Bank Syariah</h3>
+
+                <p class="project-category">Menggunakan CorelDRAW</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Website">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (82).png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tampilan Login</h3>
+
+                <p class="project-category">Menggunakan HTML & CSS</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (19).png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Aritmatika</h3>
+
+                <p class="project-category">Membuat Program Sederhana Menggunakan PHP</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="Design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (20).png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Memasukkan Nilai</h3>
+
+                <p class="project-category">Membuat Program Sederhana Menggunakan PHP</p>
+
+              </a>
+            </li>
+
+            
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
